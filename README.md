@@ -4,11 +4,11 @@ Build script for cross compile ffmpeg for Android. It generates libs for all pla
 
 Works with latest version of ffmpeg and Android NDK (7 april 2016).
 
-## requirements
+## Requirements
 
 Installed Android NDK and propably that's all.
 
-## howto
+## Howto
 
 1. Clone this repo
 2. Execute *git submodule init && git submodule update*
@@ -16,8 +16,8 @@ Installed Android NDK and propably that's all.
 4. Run *./build.sh*
 5. Static libraries should be generated and ready to use in *android-builds* directory
 
-##inspiration
+## Inspiration
 
-- (http://enoent.fr/blog/2014/06/20/compile-ffmpeg-for-android/)
-- (https://github.com/appunite/AndroidFFmpeg)
+- http://enoent.fr/blog/2014/06/20/compile-ffmpeg-for-android/
+- https://github.com/appunite/AndroidFFmpeg
 

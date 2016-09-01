@@ -5,6 +5,7 @@ Build script for cross compile ffmpeg for Android. It generates libs for all pla
 Works with ffmpeg 3.1 and Android NDK r11b.
 
 From this version (3.1) ffmpeg support native decoding using MediaCodec!
+
 I'll try provide some example in near future.
 
 ## Requirements

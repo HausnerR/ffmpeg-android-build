@@ -2,7 +2,10 @@
 
 Build script for cross compile ffmpeg for Android. It generates libs for all platforms (except 64 bit).
 
-Works with latest version of ffmpeg and Android NDK (7 april 2016).
+Works with ffmpeg 3.1 and Android NDK r11b.
+
+From this version (3.1) ffmpeg support native decoding using MediaCodec!
+I'll try provide some example in near future.
 
 ## Requirements
 

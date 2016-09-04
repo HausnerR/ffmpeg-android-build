@@ -3,12 +3,14 @@
 ANDROID_NDK_DIR=
 TARGET_PLATFORM=android-15
 
-FEATURES="--enable-decoder=h264 \
+FEATURES="--enable-jni \
+          --enable-mediacodec \
+          --enable-decoder=h264 \
+          --enable-decoder=h264_mediacodec \
           --enable-parser=h264 \
           --enable-demuxer=h264 \
-          --enable-demuxer=rtsp \
-          --enable-demuxer=rtp \
-          --enable-protocol=rtp"
+          --enable-demuxer=mov \
+          --enable-protocol=file"
 
 
 
